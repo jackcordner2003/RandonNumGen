@@ -21,6 +21,6 @@ running = True
 while(running == True):
     randomNumber()
     
-    choice = input("\nDo you want to generate another random number? (yes/no): \n\n\n")
-    if choice.lower() != "yes":
+    choice = input("\nDo you want to generate another random number? (y/on: \n\n\n")
+    if choice!= "y" or "Y":
         running = False
