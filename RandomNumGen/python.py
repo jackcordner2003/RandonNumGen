@@ -13,7 +13,7 @@ def randomNumber():
         print("\n Number 2 must be higher than Number 1  \n\n")
         randomNumber()
     else:
-        print("\n Random Number: ", random.randint(num1, num2) + "\n\n")
+        print("\n Random Number: ", str(random.randint(num1, num2))+"\n\n")
 
 
 running = True
@@ -21,6 +21,6 @@ running = True
 while(running == True):
     randomNumber()
     
-    choice = input("\nDo you want to generate another random number? (y/on: \n\n\n")
+    choice = input("\nDo you want to generate another random number? (y/n) \n\n\n")
     if choice!= "y" or "Y":
         running = False
